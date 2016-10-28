@@ -28,7 +28,7 @@ After that, you can run Suiteman on any SCA applications. Just run it in the roo
 ```
 $ suiteman PATH_TO_FILE
 
-Example: suiteman Account@2.1.0/JavaScript/Account.Login.Model.js
+Example: suiteman -c Account@2.1.0/JavaScript/Account.Login.Model.js
 
 ```
 
@@ -53,10 +53,24 @@ Default settings could be changed here.
 
 ## Usage
 
-To customize 
-```
-$ suiteman PATH_TO_FILE
+### Customize
 
-Example: suiteman Account@2.1.0/JavaScript/Account.Login.Model.js
+
+```
+suiteman --customize PATH_TO_FILE
+or
+suiteman -c PATH_TO_FILE
+
+Example: suiteman -c Account@2.1.0/JavaScript/Account.Login.Model.js
+
+```
+### Add dependency to particular application:
+
+```
+suiteman -c PATH_TO_FILE -app checkout
+or
+suiteman -c PATH_TO_FILE -a checkout 
+
+Example: suiteman Account@2.1.0/JavaScript/Account.Login.Model.js -a checkout
 
 ```
