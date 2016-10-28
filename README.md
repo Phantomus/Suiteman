@@ -34,11 +34,10 @@ Example: suiteman Account@2.1.0/JavaScript/Account.Login.Model.js
 
 ## Configuration
 
-By default Suiteman uses naming convention recommended on https://developers.suitecommerce.com/section4501068327
+Naming conventions from <a href="https://developers.suitecommerce.com/section4501068327">best practices for customizaing SCA</a> is used by default.
 
-But, if you want to use your own you can always redefine it in a configuration file.
-
-After running `suiteman --init`, you'll have a `.suiteman` file in root directory of SCA.
+After running `suiteman --init`, you'll have a `.suiteman` file in the root directory of SCA.
+Default settings could be changed here.
 
 ```json
 {
@@ -52,5 +51,12 @@ After running `suiteman --init`, you'll have a `.suiteman` file in root director
 }
 ```
 
- ## Usage
+## Usage
 
+To customize 
+```
+$ suiteman PATH_TO_FILE
+
+Example: suiteman Account@2.1.0/JavaScript/Account.Login.Model.js
+
+```
