@@ -2,7 +2,7 @@
 
 Suiteman is a simple tool created to automate customization process of Suite Commerce Advanced applications.
 
-Different types of files and resources in SuiteCommerce have different recommended best practices.
+Different types of files and resources in SuiteCommerce have different recommended <a href="https://developers.suitecommerce.com/section4501068327">best practices</a>.
 Newcomers are always confused how to choose the right one.
 Moreover, even seasoned SCA veterans sometimes forget about company naming conventions and get annoyed when they need to do all copy/paste file manipulations.
 
