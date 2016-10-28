@@ -9,8 +9,10 @@ Moreover, even seasoned SCA veterans sometimes forget about company naming conve
 Suiteman analyzes file path and creates all customization files in accordance with your company naming conventions.
 Moreover, it automatically adds all required dependencies to appropriate place in distro.json file.
 
-Demo:
-[![Suiteman demo](https://github.com/Mykhail/Suiteman/raw/master/img/demo.gif)](#demo)
+## Demo
+<p align="center">
+  <img src="https://github.com/Mykhail/Suiteman/raw/master/img/demo.gif" width="70%" alt="Suiteman's demo"/>
+</p>
 
 ## Installation
 
