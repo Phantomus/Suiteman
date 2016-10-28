@@ -75,7 +75,7 @@ Example: suiteman Account@2.1.0/JavaScript/Account.Login.Model.js -a checkout
 
 ```
 
-## Info
+### Info
 Currently, Suiteman supports automated customization for following file types:
 <ul>
 <li>JS</li>
