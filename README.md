@@ -26,7 +26,7 @@ $ npm install suiteman -g
 After that, you can run Suiteman on any SCA applications. Just run it in the root of Suite Commerce Advanced application :
 
 ```
-$ suiteman PATH_TO_FILE
+$ suiteman -c PATH_TO_FILE
 
 Example: suiteman -c Account@2.1.0/JavaScript/Account.Login.Model.js
 
@@ -74,3 +74,12 @@ suiteman -c PATH_TO_FILE -a checkout
 Example: suiteman Account@2.1.0/JavaScript/Account.Login.Model.js -a checkout
 
 ```
+
+## Info
+Currently Suiteman supports customization following file types:
+<ul>
+<li>JS</li>
+<li>Sass(scss)</li>
+<li>Templates(tpl)</li>
+<li>SuiteScript(ss)</li>
+</ul>
