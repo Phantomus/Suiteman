@@ -37,7 +37,7 @@ Example: suiteman -c Account@2.1.0/JavaScript/Account.Login.Model.js
 Naming conventions from <a href="https://developers.suitecommerce.com/section4501068327">best practices for customizaing SCA</a> is used by default.
 
 After running `suiteman --init`, you'll have a `.suiteman` file in the root directory of SCA.
-Default settings could be changed here.
+Default settings could be changed in this file.
 
 ```json
 {
@@ -55,11 +55,11 @@ Default settings could be changed here.
 
 ### Customize
 
-
+To customize file just run `suiteman --customize` in the root folder of SCA application and provide file path starting from <b>module name</b>
 ```
 suiteman --customize PATH_TO_FILE
 or
-suiteman -c PATH_TO_FILE
+suiteman -c PATH_TO_FILE 
 
 Example: suiteman -c Account@2.1.0/JavaScript/Account.Login.Model.js
 
