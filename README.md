@@ -10,8 +10,7 @@ Suiteman analyzes file path and creates all customization files in accordance wi
 Moreover, it automatically adds all required dependencies to appropriate place in distro.json file.
 
 Demo:
-
-[[https://github.com/Mykhail/Suiteman/blob/master/img/demo.gif|alt=demo]]
+[![Suiteman demo](https://github.com/Mykhail/Suiteman/raw/master/img/demo.gif)](#demo)
 
 ## Installation
 
