@@ -2,11 +2,11 @@
 
 Suiteman is a simple tool created to automate customization process of Suite Commerce Advanced applications.
 
-Different types of files and resources in SuiteCommerce have different recommended <a href="https://developers.suitecommerce.com/section4501068327">best practices</a>.
+Different types of files and resources in SuiteCommerce have different recommended best practices.
 Newcomers are always confused how to choose the right one.
 Moreover, even seasoned SCA veterans sometimes forget about company naming conventions and get annoyed when they need to do all copy/paste file manipulations.
 
-Suiteman analyzes file path and creates all customization files in accordance with your company naming conventions.
+Suiteman analyzes file path and creates all customization files in accordance with NetSuite <a href="https://developers.suitecommerce.com/section4501068327">best practices</a> and naming conventions.
 Moreover, it automatically adds all required dependencies to appropriate place in distro.json file.
 
 ## Demo
