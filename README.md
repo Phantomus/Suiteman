@@ -55,7 +55,7 @@ Default settings could be changed in this file.
 
 ### Customize
 
-To customize file just run `suiteman --customize` in the root folder of SCA application and provide file path starting from <b>module name</b>
+To customize file just run `suiteman --customize` in the root folder of SCA application and provide file path starting from the <b>module name</b>
 ```
 suiteman --customize PATH_TO_FILE
 or
